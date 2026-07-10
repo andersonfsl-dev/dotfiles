@@ -12,16 +12,21 @@ organized, versioned and easy to restore on a new computer.
 - [x] Symbolic link (symlink)
 - [x] Plugin manager (lazy.nvim bootstrap)
 - [x] Which-Key
-- [ ] Telescope
+- [x] Telescope
+- [ ] Treesitter
 - [ ] LSP
 - [ ] Autocomplete
-- [ ] Treesitter
-- [ ] Telescope
+- [ ] Theme
+- [ ] Statusline
+- [ ] Git integration
+- [ ] File explorer
+- [ ] Formatting
+- [ ] Debugger (DAP)
 
 ## Project Structure
 
 ```text
- dotfiles
+dotfiles
     ├── README.md
     └── nvim
         ├── init.lua
@@ -32,5 +37,7 @@ organized, versioned and easy to restore on a new computer.
             │   └── options.lua
             └── plugins
                 ├── init.lua
+                ├── telescope.lua
                 └── which-key.lua
+
 ```
