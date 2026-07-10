@@ -10,7 +10,7 @@ organized, versioned and easy to restore on a new computer.
 - [x] Git repository
 - [x] Basic NeoVim configuration
 - [x] Symbolic link (symlink)
-- [ ] Plugin manager
+- [x] Plugin manager (lazy.nvim bootstrap)
 - [ ] LSP
 - [ ] Autocomplete
 - [ ] Treesitter

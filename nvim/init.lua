@@ -3,4 +3,5 @@
 -- Load other configuration files from here.
 
 require("config.options")
+require("config.lazy")
 
