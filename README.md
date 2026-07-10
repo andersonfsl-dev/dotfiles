@@ -11,6 +11,8 @@ organized, versioned and easy to restore on a new computer.
 - [x] Basic NeoVim configuration
 - [x] Symbolic link (symlink)
 - [x] Plugin manager (lazy.nvim bootstrap)
+- [x] Which-Key
+- [ ] Telescope
 - [ ] LSP
 - [ ] Autocomplete
 - [ ] Treesitter
@@ -19,10 +21,16 @@ organized, versioned and easy to restore on a new computer.
 ## Project Structure
 
 ```text
-dotfiles/
-└── nvim/
-    ├── init.lua
-    └── lua/
-        ├── config/
-        └── plugins/
+ dotfiles
+    ├── README.md
+    └── nvim
+        ├── init.lua
+        ├── lazy-lock.json
+        └── lua
+            ├── config
+            │   ├── lazy.lua
+            │   └── options.lua
+            └── plugins
+                ├── init.lua
+                └── which-key.lua
 ```
