@@ -1,4 +1,28 @@
-</> Markdown
+# My Dotfiles
 
-# Dotfiles
-Projeto para armazenar meus dotfiles.
+This repository contains my personal configuration files for linux.
+
+The goal of this project si to keep mey development environment
+organized, versioned and easy to restore on a new computer.
+
+## Current Status
+
+- [x] Git repository
+- [x] Basic NeoVim configuration
+- [x] Symbolic link (symlink)
+- [ ] Plugin manager
+- [ ] LSP
+- [ ] Autocomplete
+- [ ] Treesitter
+- [ ] Telescope
+
+## Project Structure
+
+```text
+dotfiles/
+└── nvim/
+    ├── init.lua
+    └── lua/
+        ├── config/
+        └── plugins/
+```
