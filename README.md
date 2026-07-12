@@ -13,7 +13,7 @@ organized, versioned and easy to restore on a new computer.
 - [x] Plugin manager (lazy.nvim bootstrap)
 - [x] Which-Key
 - [x] Telescope
-- [ ] Treesitter
+- [x] Treesitter
 - [ ] LSP
 - [ ] Autocomplete
 - [ ] Theme
@@ -38,6 +38,7 @@ dotfiles
             └── plugins
                 ├── init.lua
                 ├── telescope.lua
+                ├── treesitter.lua
                 └── which-key.lua
 
 ```
