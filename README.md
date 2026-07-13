@@ -8,25 +8,28 @@ organized, versioned and easy to restore on a new computer.
 ## Current Status
 
 - [x] Git repository
-- [x] Basic NeoVim configuration
+- [x] Basic Neovim configuration
 - [x] Symbolic link (symlink)
 - [x] Plugin manager (lazy.nvim bootstrap)
 - [x] Which-Key
 - [x] Telescope
 - [x] Treesitter
-- [x] LSP
-- [ ] Autocomplete
-- [ ] Theme
-- [ ] Statusline
+- [x] LSP (Pyright)
+- [x] Native autocomplete
+- [x] Tokyo Night theme
+- [x] Lualine (Statusline)
+- [x] Bufferline
+- [x] Neo-tree (File Explorer)
 - [ ] Git integration
-- [ ] File explorer
 - [ ] Formatting
+- [ ] Terminal integration
 - [ ] Debugger (DAP)
+- [ ] Final keymaps
 
 ## Project Structure
 
 ```text
- dotfiles
+dotfiles
     ├── README.md
     └── nvim
         ├── init.lua
@@ -36,11 +39,15 @@ organized, versioned and easy to restore on a new computer.
             │   ├── lazy.lua
             │   └── options.lua
             └── plugins
+                ├── bufferline.lua
                 ├── init.lua
                 ├── lps.lua
+                ├── lualine.lua
                 ├── mason-lspconfig.lua
                 ├── mason.lua
+                ├── neo-tree.lua
                 ├── telescope.lua
+                ├── theme.lua
                 ├── treesitter.lua
                 └── which-key.lua
 ```
