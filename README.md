@@ -2,10 +2,11 @@
 
 This repository contains my personal configuration files for linux.
 
-The goal of this project si to keep mey development environment
-organized, versioned and easy to restore on a new computer.
+The goal of this project is to keep my development environment organized, versioned, and easy to restore on a new computer.
+
 
 ## Current Status
+
 
 - [x] Git repository
 - [x] Basic Neovim configuration
@@ -27,6 +28,7 @@ organized, versioned and easy to restore on a new computer.
 - [ ] Formatting (later)
 - [ ] Debugger / DAP (later)# Project Structure
 
+
 ```text
 Projects
 └── dotfiles
@@ -42,7 +44,7 @@ Projects
             └── plugins
                 ├── bufferline.lua
                 ├── init.lua
-                ├── lps.lua
+                ├── lsp.lua
                 ├── lualine.lua
                 ├── mason-lspconfig.lua
                 ├── mason.lua
