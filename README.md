@@ -1,4 +1,4 @@
-# My Dotfiles
+#  My Dotfiles
 
 This repository contains my personal configuration files for linux.
 
@@ -9,33 +9,34 @@ organized, versioned and easy to restore on a new computer.
 
 - [x] Git repository
 - [x] Basic Neovim configuration
-- [x] Symbolic link (symlink)
-- [x] Plugin manager (lazy.nvim bootstrap)
+- [x] Symbolic link
+- [x] lazy.nvim
 - [x] Which-Key
 - [x] Telescope
 - [x] Treesitter
-- [x] LSP (Pyright)
+- [x] LSP with Pyright
 - [x] Native autocomplete
 - [x] Tokyo Night theme
-- [x] Lualine (Statusline)
+- [x] Lualine
+- [x] Neo-tree
 - [x] Bufferline
-- [x] Neo-tree (File Explorer)
-- [ ] Git integration
-- [ ] Formatting
-- [ ] Terminal integration
-- [ ] Debugger (DAP)
-- [ ] Final keymaps
-
-## Project Structure
+- [x] Integrated terminal
+- [x] Window navigation keymaps
+- [x] Run current Python file
+- [ ] Git integration (later)
+- [ ] Formatting (later)
+- [ ] Debugger / DAP (later)# Project Structure
 
 ```text
-dotfiles
+Projects
+└── dotfiles
     ├── README.md
     └── nvim
         ├── init.lua
         ├── lazy-lock.json
         └── lua
             ├── config
+            │   ├── keymaps.lua
             │   ├── lazy.lua
             │   └── options.lua
             └── plugins
