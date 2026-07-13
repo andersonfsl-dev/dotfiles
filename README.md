@@ -14,7 +14,7 @@ organized, versioned and easy to restore on a new computer.
 - [x] Which-Key
 - [x] Telescope
 - [x] Treesitter
-- [ ] LSP
+- [x] LSP
 - [ ] Autocomplete
 - [ ] Theme
 - [ ] Statusline
@@ -26,7 +26,7 @@ organized, versioned and easy to restore on a new computer.
 ## Project Structure
 
 ```text
-dotfiles
+ dotfiles
     ├── README.md
     └── nvim
         ├── init.lua
@@ -37,8 +37,10 @@ dotfiles
             │   └── options.lua
             └── plugins
                 ├── init.lua
+                ├── lps.lua
+                ├── mason-lspconfig.lua
+                ├── mason.lua
                 ├── telescope.lua
                 ├── treesitter.lua
                 └── which-key.lua
-
 ```
