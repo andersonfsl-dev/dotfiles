@@ -24,14 +24,17 @@ The goal of this project is to keep my development environment organized, versio
 - [x] Integrated terminal
 - [x] Window navigation keymaps
 - [x] Run current Python file
+- [x] HTML, CSS and JavaScript support
 - [ ] Git integration (later)
 - [ ] Formatting (later)
-- [ ] Debugger / DAP (later)# Project Structure
+- [ ] Debugger / DAP (later)
+
+
+# Project Structure
 
 
 ```text
-Projects
-└── dotfiles
+dotfiles
     ├── README.md
     └── nvim
         ├── init.lua
@@ -43,6 +46,7 @@ Projects
             │   └── options.lua
             └── plugins
                 ├── bufferline.lua
+                ├── emmet.lua
                 ├── init.lua
                 ├── lsp.lua
                 ├── lualine.lua
@@ -52,5 +56,5 @@ Projects
                 ├── telescope.lua
                 ├── theme.lua
                 ├── treesitter.lua
-                └── which-key.lua
+                └── which-key.lua                
 ```
